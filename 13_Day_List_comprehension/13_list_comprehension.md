@@ -12,7 +12,7 @@
 <small> Second Edition: July, 2021</small>
 </sub>
 
-</div>
+
 </div>
 
 [<< Day 12](../12_Day_Modules/12_modules.md) | [Day 14>>](../14_Day_Higher_order_functions/14_higher_order_functions.md)
@@ -34,7 +34,7 @@ List comprehension in Python is a compact way of creating a list from a sequence
 
 ```py
 # syntax
-[i for i in iterable if expression]
+[expression for i in iterable if condition]
 ```
 
 **Example:1**
@@ -108,7 +108,7 @@ To create a lambda function we use _lambda_ keyword followed by a parameter(s), 
 
 ```py
 # syntax
-x = lambda param1, param2, param3: param1 + param2 + param2
+x = lambda param1, param2, param3: param1 + param2 + param3
 print(x(arg1, arg2, arg3))
 ```
 
